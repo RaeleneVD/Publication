@@ -18,7 +18,7 @@ namespace Publication.Models
 
         public string GetDateFormat()
         {
-            return DatePublished.ToString("yyyy-MM-dd");
+            return DatePublished.ToString("dddd, dd MMM yyyy");
         }
     }
 }

@@ -32,12 +32,12 @@
                         <h6>by @pub.Author.FirstName @pub.Author.LastName</h6>
                         <p>@pub.Summary</p>
                         <a href="@pub.MainStoryURL" target="_blank">Read More</a>
-                        <p class="text-muted"><strong>Published:</strong> @pub.GetDateFormat()</p>
+                        <p class="text-muted"><strong>The date of publication is:</strong> @pub.GetDateFormat()</p>
 
 
                         @if (pub is Publication.Models.Book book)
                         {
-                            <p class="text-muted"><strong>Editions:</strong> @book.Edition</p>
+                            <p class="text-muted"><strong>The number of Editions is:</strong> @book.Edition</p>
                         }
 
 
